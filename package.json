@@ -1,6 +1,6 @@
 {
   "name": "cdate-formatting",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple Node package library for quick JS Date formatting",
   "main": "index.js",
   "repository": {
@@ -8,14 +8,11 @@
     "url": "git+https://github.com/FSolM/cdate-formatting.git"
   },
   "keywords": [
-    "Date",
-    "Formatter",
-    "Javascript",
-    "Formatter",
-    "Javascript",
-    "Date"
+    "Date Formatter",
+    "Javascript Formatter",
+    "Javascript Date Formatter"
   ],
-  "author": "FSolM",
+  "author": "FSolM <fersolmarin@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/FSolM/cdate-formatting/issues"
