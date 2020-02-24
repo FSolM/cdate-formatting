@@ -1,3 +1,1 @@
-export default () => {
-  return 'This is a test package'
-}
+module.exports = require('./lib/cdate');
