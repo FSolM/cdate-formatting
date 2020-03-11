@@ -3,8 +3,6 @@
 
 This `npm` module focuses on the date formatting of the `new Date()` JS object. It parses the result to a legible `string` state for both data manipulation and display.
 
-**Currently it only parses the current date.**
-
 ## Usage & Installation
 
 To use this module install it with either `npm`
@@ -48,7 +46,18 @@ const nonCompactFullDate = cdate('mm/dd/yy', { compact: false, fullDate: true })
 // Monday, February 24 2020
 ```
 
-If either the `format` of the date, or the `options` are wrong in some way, `cdate` will return `undefined`
+Additionally, you can specify a custom date to parse with the same format passing a `instanceof` Date; the default parameter of this option will parse the current date:
+
+```javascript
+const dateUnspecified = cdate('mm/dd/yy', { compact: true, fullDate: false });
+// Feb 24 2020
+
+const dateSpecified = cdate('mm/dd/yy', { compact: true, fullDate: false }, new Date (2019, 10, 15));
+// Nov 15 2019
+
+```
+
+If either the `format` of the date, the `options` are wrong in some way, or the `date` variable is not a valid instance of Date or an invalid date, `cdate` will return `undefined`.
 
 #### Created by:
 
