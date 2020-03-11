@@ -1,6 +1,6 @@
 {
   "name": "cdate-formatting",
-  "version": "0.5.6",
+  "version": "1.0.0",
   "description": "A simple Node package library for quick JS Date formatting",
   "main": "index.js",
   "type": "module",
