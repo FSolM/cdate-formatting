@@ -62,3 +62,5 @@ If either the `format` of the date, the `options` are wrong in some way, or the 
 #### Created by:
 
 Carlos Sol: [@FSolM](https://github.com/FSolM)
+
+> If you like Tejuino, you may consider donating to my [PayPal](https://www.paypal.me/carlossol).
